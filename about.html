@@ -5,51 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <script src="https://kit.fontawesome.com/1c15c8200d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
     <link rel="stylesheet" href="./resources/index.css">
 </head>
 
-<!--Nav Bar-->
-<header>
-    <!--<h1>Galaxy Fasteners Inc.</h1>-->
-    <a href="/index.html"><img src="./resources/logo.jpg" alt=""></a>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/products.html">Product</a></li>
-        <!--<li><a href="/team.html">Team</a></li>-->
-        <li><a href="/services.html">Services</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-    </ul>
-    <!--Heading CTA-->
-    <ul>
-        <li class="quote-btn">Get a Quote</li>
-        <li>Login</li>
-        <li>(401)-885-4960</li>
-    </ul>
-</header>
-
 <body>
-    <div ID="about">
-        <h1>About the Company</h1>
-        <h2>Commited to Excellence</h2>
-        <p>As a leading fastener supplier located in Rhode Island, we specialize in corrosion-resistant materials such as 304/316 Stainless, Brass, Bronze, Aluminum, Monel & other special materials. We attribute our reputation to the lasting customer relationships we’ve built since our establishment in 1984. We believe that the customer comes first - which means the highest quality products, competitive pricing, and truly exceptional service. Contact us today to learn how we can service your fastener needs.</p>
-        <button>Contact Us</button>
-    </div>
+     <!--Nav Bar-->
+     <nav>
+        <!-- <button style='font-size:24px'>Button -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class='fas fa-align-justify'></i>
+            </label>
+            <!-- </button> -->
+      <a href="/index.html"><img src="./resources/logo.jpg" alt=""></a>
+
+      <!-- <div class="mobile-menu"> -->
+        <!-- <ul>
+          Extra Section Causing Bug
+        </ul> -->
+        <!--Heading CTA-->
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/products.html">Products</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <a href="mailto:Sales@GalaxyFasteners.com"><li class="quote-btn">Get a Quote</li></a>
+          <a href="https://www.galaxyfasteners.com/the-team"><li class="login-btn">Login</li></a>
+          <li class="phone">(401)-885-4960</li>
+        </ul>
+      <!-- </div> -->
+</nav>
+    <section id="about-content">
+        <div id="about-photo">
+            <img src="/resources/galaxy bridge.avif" alt="">
+            <!-- <img src="file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/galaxy%20bridge.avif" alt=""> -->
+        </div>
+        <div id="about">
+            <h1>About the Company</h1>
+            <p>Galaxy Fasteners is a premier fastener supplier based in Rhode Island, offering a specialized range of corrosion-resistant materials that includes 304/316 Stainless, Brass, Bronze, Aluminum, Monel, and other special materials. Our reputation for excellence is founded on the enduring customer relationships we have forged since our establishment in 1984. At our core, we place the customer first, and this is reflected in our commitment to delivering the highest quality products, competitive pricing, and exceptional service. Get in touch with us today to discover how we can cater to your fastener requirements.</p>
+            <h4 class="about-words">Service                        Quality                            Reliability </h4>
+            <img class="about-icons" src="./resources/trust img.png" alt="">
+            <button>Contact Us</button>
+        </div>
+
+    </section>
 
 </body>
 
-<footer>
-    <a href="/index.html"><img src="./resources/logo.jpg" alt=""></a>
-    <!--<p class="footer-copy">For all your fastening system needs, look no further than Galaxy Fasteners. Galaxy provieds tried and tested solutions to the construction, military and ect. industries.</p>-->
-    <div class="footer-contact">
-        <h1>Contact</h1>
-        <p>101 Telmore Road, East Greenwich RI 02818</p>
-            
-        <p>Sales@GalaxyFasteners.com</p>
-            
-        <p>Call (401)-885-4960</p>
-            
-        <p>Fax (401)-885-4968</p>
-    </div>
+    <footer>
+        <a href="/index.html"><img src="./resources/logo.jpg" alt=""></a>
+        <!--<p class="footer-copy">For all your fastening system needs, look no further than Galaxy Fasteners. Galaxy provieds tried and tested solutions to the construction, military and ect. industries.</p>-->
+        <div class="footer-contact">
+            <h1>Contact</h1>
+            <p>101 Telmore Road, East Greenwich RI 02818</p>
+                
+            <p>Sales@GalaxyFasteners.com</p>
+                
+            <p>Call (401)-885-4960</p>
+                
+            <p>Fax (401)-885-4968</p>
+        </div>
     </footer>
 </html>
