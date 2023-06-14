@@ -1,0 +1,677 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar Start */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+    align-items: center;
+    font-size: 1.1em;
+    height: 4em;
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+header ul {
+    box-sizing: content-box;
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    padding-right: .5em;
+}
+
+header li {
+    padding-left: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: #174B8D;
+    cursor: pointer;
+}
+
+header .quote-btn {
+    border-radius: 5px;
+    padding: 3px;
+    border: 2px solid #f77062;
+    cursor: pointer;
+}
+
+header .quote-btn:hover {
+    background-color: #f77062;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    border: 2px solid #f77062;;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    position: relative;
+}
+
+header img {
+    height: 60px;
+}
+
+/* Nav Bar End */
+
+/* Hero Styling Start */
+#hero {
+    display: flex;
+    /*background-image: url('https://www.innovationnewsnetwork.com/wp-content/uploads/2021/02/Primordial-galaxy.jpg');*/
+    background-image: url(./bstn\ brg\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 46.875em;
+    width: 100%;
+    opacity: 5;
+}
+
+#hp-about {
+
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+#hp-about p {
+    display: grid;
+    max-width: 56.25em;
+    text-align: center;
+    /* margin: 0.625em 20.50em; */
+    margin: auto auto;
+    font-size: 22px;
+    min-width: 300px;
+    padding-top: 1em;
+}
+
+#hero .border-box {
+    box-sizing: content-box;
+    color: black;
+    padding-top: 5%;
+    padding-left: 5%;
+    /* opacity: .6;
+    z-index: 1; */
+}
+
+#hero .words {
+    box-sizing: content-box;
+    /* border: 3px solid black; */
+    background-color: ghostwhite;
+    width: 360px;
+    height: 150px;
+    padding-top: 3em;
+    /* padding-left: 0.9375em; */
+    border-radius: 4px;
+    z-index: 1;
+}
+
+@media (max-width: 1650px) {
+    #hero .border-box {
+        padding-top: 10em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.words h1 {
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+.words h2 {
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+.words button {
+    align-items: center;
+    padding: 4px;
+    margin-left: 45px;
+    z-index: 1;
+}
+
+.words button:hover {
+    align-items: center;
+    padding: 4px;
+    margin-left: 45px;
+    color: white;
+    background-color: #f77062;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hero Styling End */
+
+/* Our Service HP Styling Start */
+
+#service {
+    padding-top: 80px;
+}
+
+#service h2, h3 {
+    text-align: center;
+    margin: auto auto;
+}
+
+#service p {
+    padding-bottom: 1em;
+}
+
+#service button {
+    padding: 1em;
+}
+
+#service button:hover {
+    align-items: center;
+    padding: 1em;
+    color: white;
+    background-color: #f77062;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.service-container {
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5em;
+}
+
+#service .box {
+    /* border: 1px solid #466995; */
+    min-height: 12.5em;
+    min-width: 28.25em;
+    max-width: 30em;
+    margin: auto;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+@media (max-width: 1450px) {
+    .service-container {
+        display: grid;
+    }
+}
+
+/* Our Service HP Styling End */
+
+/* Industries Styling Start */
+
+#industries {
+    background-color: #174B8D;
+    width: 100%;
+    padding-top: 1em;
+}
+
+.industries {
+    text-align: center;
+}
+
+#industries h2, h3 {
+    text-align: center;
+    font-size: 1.875em;
+    padding-top: 1.25em;
+}
+
+#industries .border-box {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+#industries .container {
+    padding: 40px 40px;
+    width: 800px;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+@media (max-width: 1250px) {
+    #industries .border-box {
+        height: 28em;
+    }
+}
+
+@media (max-width: 995px) {
+    #industries .border-box {
+        display: grid;
+        height: auto;
+        width: auto;
+    }
+}
+
+@media (max-width: 995px) {
+    #industries .container {
+        max-width: 500px;
+    }
+}
+
+.industries h2 {
+    color: white;
+}
+
+.industries h3{
+    color: white;
+}
+
+/* Industries Styling End */
+
+/* Product Home Page Styling Start */
+
+#product-hp{
+    height: 37.5em;
+}
+
+#product-hp h1 {
+    text-align: center;
+    padding-top: 1em;
+    font-size: 2em;
+}
+
+#product-banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-image: url('https://static.wixstatic.com/media/086c5d22c3f24976b166c7c601fbdafe.jpg/v1/fill/w_1905,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/086c5d22c3f24976b166c7c601fbdafe.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+#product-banner h1 {
+    color: white;
+    font-size: 38px;
+    padding-top: 13%;
+}
+
+/* Product Home Page Styling End */
+
+/* Services Styling Start */
+
+#services section {
+    display: grid;
+    max-width: 900px;
+    min-width: 600px;
+    justify-content: center;
+    margin: auto auto;
+    padding: 1.5em;
+    padding-top: 2em;
+    /* max-width: 800px; */
+}
+
+#services section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 500px;
+    padding-top: 10px;
+}
+
+#services p {
+    padding-top: 10px;
+}
+
+.bin-stock {
+    padding-top: 100px;
+    /* max-width: 600px; */
+}
+
+.bin-stock img {
+    height: 500px;
+    width: 480px;
+}
+/* Services Styling End */
+
+/* Form Styling Start */
+#form-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://static.wixstatic.com/media/1b402ae4065641b7823d9c1c557ec473.jpg/v1/fill/w_1920,h_1240,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_auto/1b402ae4065641b7823d9c1c557ec473.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 800px;
+    width: 100%;
+}
+
+#form-background .infoform {
+    border: 3px solid black;
+    height: 18.75em;
+    width: 34.375em;
+    background-color: ghostwhite;
+    margin-left: 10%;
+    margin-top: 10%;
+    opacity: .9;
+}
+
+#form-background .info {
+    padding: 70px 70px;
+    word-spacing: 5px;
+}
+
+#form-background img {
+    box-sizing: content-box;
+    position: relative;
+    display: inline-block;
+    width: 50em;
+    height: 25em;
+    padding-top: 10em;
+    padding-left: 10em;
+}
+
+button {
+    border-radius: 10px;
+}
+
+@media (max-width: 1500px) {
+    .map {
+        display: none;
+    }
+}
+
+/* Form Styling End */
+
+/* Footer Start */
+footer {
+    height: 10em;
+    display: block;
+    position: relative;
+}
+
+footer img{
+    height: 120px;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+.footer-copy {
+    
+    width: 60px;
+}
+
+.footer-contact{
+    float: right;
+    padding-top: 1em;
+    padding-right: .5em;
+}
+
+@media (max-width: 850px) {
+    footer {
+        display: grid;
+        justify-items: center;
+        text-align: center;
+    }
+}
+
+/* Footer End */
+
+/* About Styling Start */
+#about {
+    padding-top: 6.25em;
+    display: grid;
+    max-width: 800px;
+    margin: auto auto;
+    justify-items: center;
+    padding-bottom: 37.5em;
+}
+
+#about h1 {
+    padding: 10px;
+}
+
+#about h2 {
+    padding: 10px;
+}
+
+#about p {
+    padding: 10px;
+}
+
+#about button {
+    padding: 10px;
+}
+
+#about button:hover{
+    align-items: center;
+    padding: 10px;
+    color: white;
+    background-color: #f77062;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* About Styling End */
+
+/* Product Pg Start */
+#products {
+    
+}
+
+#row1 {
+    justify-content: space-evenly;
+    display: inline-flex;
+    width: 100%;
+    column-count: 3;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#row1 ul {
+    width: 300px;
+}
+
+@media (max-width: 995px) {
+    #row1 {
+        justify-content: space-evenly;
+        display: grid;
+        width: 100%;
+        column-count: 3;
+        padding-top: 1em;
+        padding-bottom: .1em;
+    }
+}
+
+#row1 li:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    color: #174B8D;
+}
+
+.row1 h2 {
+
+}
+
+.row1 ul li {
+    display: flex;
+    text-decoration: none;
+    margin: 5px;
+}
+
+#row2 {
+    display: inline-flex;
+    width: 100%;
+    column-count: 3;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+
+#row2 ul {
+    width: 300px;
+}
+
+@media (max-width: 995px) {
+    #row2 {
+        justify-content: space-evenly;
+        display: grid;
+        width: 100%;
+        column-count: 3;
+        padding-top: .1em;
+        padding-bottom: .1em;
+    }
+}
+
+#row2 li:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    color: #174B8D;
+}
+
+.row2 {
+
+}
+
+.row2 ul li {
+    display: flex;
+    text-decoration: none;
+    margin: 5px;
+    width: 12em;
+}
+
+#row3 {
+    display: inline-flex;
+    width: 100%;
+    column-count: 3;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+
+#row3 ul {
+    width: 300px;
+}
+
+@media (max-width: 995px) {
+    #row3 {
+        justify-content: space-evenly;
+        display: grid;
+        width: 100%;
+        column-count: 3;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+}
+
+#row3 li:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    color: #174B8D;
+}
+
+.row3 {
+
+}
+
+.row3 ul li {
+    display: flex;
+    text-decoration: none;
+    margin: 5px;
+}
+
+#products .highlight {
+    font-weight: bold;
+}
+
+.PDF {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.PDF button {
+    text-align: center;
+    margin-top: 1em;
+    padding:1em;
+}
+
+.PDF button:hover {
+    text-align: center;
+    margin-top: 1em;
+    padding:1em;
+    color: white;
+    cursor: pointer;
+    background-color: #f77062;
+    transition: all 0.3s ease;
+}
+
+/* Product Pg End */
+
+/* Contact Pg Start */
+#contact-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://static.wixstatic.com/media/1b402ae4065641b7823d9c1c557ec473.jpg/v1/fill/w_1920,h_1240,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_auto/1b402ae4065641b7823d9c1c557ec473.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: grid;
+    height: 800px;
+    width: 100%;
+}
+
+#contact-background .infoform {
+    border: 1.5px solid black;
+    /* height: 18.75em;
+    width: 34.375em; */
+    height: 25.75em;
+    width: 45.375em;
+    background-color: ghostwhite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    opacity: .9;
+    border-radius: .5em;
+}
+
+#contact-background .info {
+    padding: 70px 180px;
+    word-spacing: 5px;
+}
+
+/* #contact-background img {
+    box-sizing: content-box;
+    position: relative;
+    display: inline-block;
+    width: 50em;
+    height: 25em;
+    padding-top: 10em;
+    padding-left: 10em;
+} */
+
+button {
+    border-radius: 10px;
+}
+
+@media (max-width: 1500px) {
+    .map {
+        display: none;
+    }
+}
+
+/* Contact Pg End */
