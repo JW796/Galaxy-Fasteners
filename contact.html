@@ -5,30 +5,41 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact</title>
+        <script src="https://kit.fontawesome.com/1c15c8200d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
         <link rel="stylesheet" href="./resources/index.css">
     </head>
-    <!--Nav Bar-->
-    <header>
-        <!--<h1>Galaxy Fasteners Inc.</h1>-->
-        <img src="./resources/logo.jpg" alt="">
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/products.html">Product</a></li>
-            <!--<li><a href="/team.html">Team</a></li>-->
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-        </ul>
-        <!--Heading CTA-->
-        <ul>
-            <li class="quote-btn">Get a Quote</li>
-            <li>Login</li>
-            <li>(401)-885-4960</li>
-        </ul>
-    </header>
 
     <body>
-        <div id="contact-background">
+        <!--Nav Bar-->
+     <nav>
+        <!-- <button style='font-size:24px'>Button -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class='fas fa-align-justify'></i>
+            </label>
+            <!-- </button> -->
+      <a href="/index.html"><img src="./resources/logo.jpg" alt=""></a>
+
+      <!-- <div class="mobile-menu"> -->
+        <!-- <ul>
+          Extra Section Causing Bug
+        </ul> -->
+        <!--Heading CTA-->
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/products.html">Products</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <a href="mailto:Sales@GalaxyFasteners.com"><li class="quote-btn">Get a Quote</li></a>
+          <a href="https://www.galaxyfasteners.com/the-team"><li class="login-btn">Login</li></a>
+          <li class="phone">(401)-885-4960</li>
+        </ul>
+      <!-- </div> -->
+</nav>
+        <!-- <div id="contact-background">
             <div class="infoform">
                 <div class="info">
                     <form action="Contact us">
@@ -55,6 +66,52 @@
                     </form>
                 </div>
             </div>
+        </div> -->
+
+        <div id="form-background">
+            <div class="infoform">
+                <div class="info">
+                    <form action="Contact us">
+                        <label for="name">Name</label>
+                        <input type="name" name="Name">
+                        <br>
+                        <label for="email">Email</label>
+                        <input type="text" name="Email" id="email">
+                        <br>
+                        <label for="phone">Phone</label>
+                        <input type="text" name="Phone" id="phone">
+                        <br>
+                        <label for="company">Company</label>
+                        <input type="text" name="Company" id="Company">
+                        <br>
+                        <label for="address">Address</label>
+                        <input type="text" name="Address" id="Address">
+                        <br>
+                        <label for="Type your Message">Type your Message</label>
+                        <br>
+                        <textarea name="Type your Message" id="Type your Message" cols="40" rows="5"></textarea>
+                        <br>
+                        <input class="form_button" type="button" value="Submit">
+                    </form>
+                </div>
+            </div>
+
+            <!--Map-->
+            <!-- <div class="map">
+                <img src="./resources/Galaxy Map.png" alt="">
+            </div> -->
+
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="700" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=101%20telmore%20road&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+                    </iframe><a href="https://123movies-i.net">123movies</a><br>
+                    <!-- <style>.mapouter{position:relative;text-align:right;height:450px;width:700px;}</style> -->
+                    <a href="https://www.embedgooglemap.net">how to add google maps to your website</a>
+                    <!-- <style>.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:700px;}</style> -->
+                </div>
+            </div>
+            
         </div>
     </body>
 
