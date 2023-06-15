@@ -5,36 +5,48 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Products</title>
+        <script src="https://kit.fontawesome.com/1c15c8200d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
         <link rel="stylesheet" href="./resources/index.css">
     </head>
-    <!--Nav Bar-->
-    <header>
-        <!--<h1>Galaxy Fasteners Inc.</h1>-->
-        <img src="./resources/logo.jpg" alt="">
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/products.html">Product</a></li>
-            <!--<li><a href="/team.html">Team</a></li>-->
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-        </ul>
+
+    <body>
+        <!--Nav Bar-->
+      <nav>
+        <!-- <button style='font-size:24px'>Button -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class='fas fa-align-justify'></i>
+            </label>
+            <!-- </button> -->
+      <a href="/index.html"><img src="./resources/logo.jpg" alt=""></a>
+
+      <!-- <div class="mobile-menu"> -->
+        <!-- <ul>
+          Extra Section Causing Bug
+        </ul> -->
         <!--Heading CTA-->
         <ul>
-            <li class="quote-btn">Get a Quote</li>
-            <li>Login</li>
-            <li>(401)-885-4960</li>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/products.html">Products</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <a href="mailto:Sales@GalaxyFasteners.com"><li class="quote-btn">Get a Quote</li></a>
+          <a href="https://www.galaxyfasteners.com/the-team"><li class="login-btn">Login</li></a>
+          <li class="phone">(401)-885-4960</li>
         </ul>
-    </header>
-
-    <!--ProductBanner-->
-    <body>
+      <!-- </div> -->
+</nav>
+        <!--ProductBanner-->
         <div id="product-banner">
             <h1>Products</h1>
         </div>
     <section id="products">
         <div id="row1"> 
             <div class="row1">  
+                <img class="product-icons" src="/resources/bolts.png" alt="">
             <h2>Bolts</h2>
             <ul>
                 <li>HEX CAP SCREWS</li>
@@ -58,6 +70,7 @@
 
 
             <div class="row1">
+                <img class="product-icons" src="/resources/nut.png" alt="">
             <h2>Nuts</h2>
             <ul>
                 <li>HEX NUTS</li>
@@ -85,6 +98,7 @@
 
 
             <div class="row1">
+                <img class="product-icons" src="/resources/Pin.png" alt="">
             <h2>Pins</h2>
             <ul>
                 <li class="highlight">COTTER PINS </li>
@@ -102,6 +116,7 @@
             
         <div id="row2">
             <div class="row2">
+                <img class="product-icons" src="/resources/screw.png" alt="">
             <h2>Screws</h2>
             <ul>
                 <li>ALL HEAD STYLES AVAILABLE </li>
@@ -116,6 +131,7 @@
 
 
             <div class="row2">
+                <img class="product-icons" src="/resources/Washer.png" alt="">
             <h2>Washers</h2>
             <ul>
                 <li class="highlight">USS & SAE FLAT WASHERS </li>
@@ -131,6 +147,7 @@
 
 
             <div class="row2">
+                <img class="product-icons" src="/resources/Socket.PNG" alt="">
             <h2>Socket Products</h2>
             <ul>
                 <li>SOCKET HEAD CAP SCREW</li>
@@ -148,6 +165,7 @@
 
         <div id="row3">
             <div class="row3">
+                <img class="product-icons" src="/resources/MISC.png" alt="">
             <h2>Misc</h2>
             <ul>
                 <li>ALL THREADED ROD</li>
@@ -164,6 +182,7 @@
             </div>
 
             <div class="row3">
+                <img class="product-icons" src="/resources/Metric.png" alt="">
             <h2>Metrics</h2>
             <ul>
                 <li>HX BOLTS - NUTS - SCREWS </li>
@@ -175,6 +194,7 @@
 
 
             <div class="row3">
+                <img class="product-icons" src="/resources/rivet.png" alt="">
             <h2>Rivits</h2>
             <ul>
                 <li>Aluminum</li>
@@ -190,7 +210,7 @@
     <div class="PDF">
         <h2>Click to Download Line Card</h2>
         <img src="" alt="">
-        <button>Click Here</button>
+        <a href="https://www.galaxyfasteners.com/_files/ugd/85c7ad_c01e7aa3a5e34b7db9a7ec3440338835.pdf"><button>Click Here</button></a>
     </div>
     </body>
 

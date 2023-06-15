@@ -6,37 +6,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Galaxy Fasteners Inc.</title>
         <link rel="stylesheet" href="./resources/index.css">
+
+        <meta charset="UTF-8">
+        <title>Owl Carousel 2 - Basic</title>
+        <meta name="description" content="A pen by Maruf al bashir">
+        <meta name="keywords" content="Owl carousel,">
+        <meta name="author" content="maruf-al bashir">
+        <meta http-equiv="refresh" content="3000">
+        <meta name="date" content="2017-10-05" scheme="YYYY-MM-DD">
+        <meta name="identifier" content="marufalbashir@gmail.com" scheme="ISBN">
+        <meta name="theme-color" content="#27ade7">
+        <link rel="icon" sizes="192x192" href="images/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
+        <script src="https://kit.fontawesome.com/1c15c8200d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css'>
     </head>
-    <!--Nav Bar-->
-    <header>
-        <!--<h1>Galaxy Fasteners Inc.</h1>-->
-        <a href="/index.html"><img src="./resources/logo.jpg" alt=""></a>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/products.html">Product</a></li>
-            <!--<li><a href="/team.html">Team</a></li>-->
-            <li><a href="/services.html">Services</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-        </ul>
-        <!--Heading CTA-->
-        <ul>
-            <li class="quote-btn">Get a Quote</li>
-            <li>Login</li>
-            <li>(401)-885-4960</li>
-        </ul>
-    </header>
-
-
+    
     <body>
+      <!--Nav Bar-->
+      <nav>
+              <!-- <button style='font-size:24px'>Button -->
+                  <input type="checkbox" id="check">
+                  <label for="check" class="checkbtn">
+                      <i class='fas fa-align-justify'></i>
+                  </label>
+                  <!-- </button> -->
+            <a href="/index.html"><img src="./resources/logo.jpg" alt=""></a>
+
+            <!-- <div class="mobile-menu"> -->
+              <!-- <ul>
+                Extra Section Causing Bug
+              </ul> -->
+              <!--Heading CTA-->
+              <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/products.html">Products</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <a href="mailto:Sales@GalaxyFasteners.com"><li class="quote-btn">Get a Quote</li></a>
+                <a href="https://www.galaxyfasteners.com/the-team"><li class="login-btn">Login</li></a>
+                <li class="phone">(401)-885-4960</li>
+              </ul>
+            <!-- </div> -->
+
+      </nav>
         <!--Hero IMG-->
         <section id="hero">
             <div class="border-box">
                 <div class="words">
                     <h1>Our Service is out of this world!</h1>
                     <h2>Download Product Sheet</h2>
-                    <button>Product Sheets</button>
-                    <button>Request Quote</button>
+                    <a href="https://www.galaxyfasteners.com/_files/ugd/85c7ad_c01e7aa3a5e34b7db9a7ec3440338835.pdf"><button>Product Sheets</button></a>
+                    <a href="mailto:Sales@GalaxyFasteners.com"><button>Request Quote</button></a>
                 </div>
             </div>
         </section>
@@ -52,26 +76,28 @@
             <div class="service-container">
                 <div class="box">
                     <h3>Bin Stock</h3>
-                    <p>From bins to the screws in them, this traditional bin-stocking may be the right fit for your company. We will come by as often as required to replenish stock and take new orders.
-                    </p>
-                    <button>Learn More</button>
+                    <p>Our bin stock program is a comprehensive inventory management solution. We will work with you to set a schedule that fits your unique business needs and estimate production downtime. We can work with you to organize and install your bins for optimal operating efficiency.</p>
                 </div>
         
                 <div class="box">
                     <h3>VMI</h3>
                     <p>Our Vendor Managed Inventory (VMI) is a robust program that we will work with your company to customize to fit your unique manufacturing requirements. Integrating a VMI program has the following impact on your business: reduce lead times, lower price fluctuation risk, and improve overall manufacturing flow.
                     </p>
-                    <button>Learn More</button>
                 </div>
         
                 <div class="box">
                     <h3>JIT / Stock Release</h3>
                     <p>The best way to reduce price volatility risk on hardware is with a stock release program. You place your annual quantity orders with us, and we will release to you, when needed. This helps to minimize inventory and manage one-time spending. We will work with you to develop a release strategy, whether that’s at pre-determined dates or when you run out!
                     </p>
-                    <button>Learn More</button>
+                    
                 </div>
 
             </div>
+            
+          <div class="service-hp-link">
+              <a href="/services.html"><button>Learn More</button></a>
+          </div>
+
             
         </section>
 
@@ -85,25 +111,33 @@
             <div class="border-box">
                 <div class="container">
                     <h4>Medical</h4>
+                    <br>
                     <p>Weather Stainless, aluminum, or titanium, we have experience dealing with the medical industry and its standard requirements</p>
+                    <br>
+                    <p>From machined parts and specialty screws to replacement parts for medical equipment, we stock it all.</p>
                 </div>
 
                 <div class="container">
                     <h4>Military / Mil-Spec</h4>
+                    <br>
                     <p>We have a long history of working with Mil-Spec parts and stock a range of NSNs (National Stock Number). Years of work have given us a vast understanding of the specs and requirements including: DFARS, Mil-Spec and Domestic COO parts. Through long-term relations with domestic manufacturers, we are proud to serve the military with great service and pricing.</p>
                 </div>
 
                 <div class="container">
                     <h4>Aerospace</h4>
-                    <p>satellite, antenna, airplane maintenance parts, SVU, and more
-                </p>
+                    <br>
+                    <p>Satellite, antenna, airplane maintenance parts, SVU, and more</p>
+                    <br>
+                    <p>Are you an MRO looking for a strategic partner for aircraft hardware? Contact our sales associates to learn about the programs we offer. </p>
                 </div>
 
                 <div class="container">
                     <h4>Boat Manufacturing</h4>
-                    <p>We stock a wide variety of 18-8, 304, & 316 Stainless steel self-tapping screws along with Stainless bolting.
-                    </p>
-                    <ul>
+                    <br>
+                    <p>We stock a wide variety of 18-8, 304, & 316 Stainless steel self-tapping screws along with Stainless bolting.</p>
+                    <br>
+                    <p>We work with Boat manufacturers and service yards and have a large inventory of marine hardware. </p>
+                    <!-- <ul>
                         <li>Valve</li>
                         <li>Boat maintenance</li>
                         <li>Bench/Outdoor Furniture</li>
@@ -112,7 +146,7 @@
                         <li>Construction</li>
                         <li>Road and bridge construction</li> 
                         <li>Including:DOT-approved hardware</li>
-                    </ul>
+                    </ul> -->
                 </div>
 
             </div>
@@ -130,15 +164,96 @@
     -->
 
         <!--Products-->
-        <section id="product-hp">
-            <h1>Our Products</h1>
+        <h2 class="hp-products">Our Products</h2>
+        <div class="carousel-wrap">
+            <div class="owl-carousel">
+              <div class="item"><img src="/resources/Carriage bolt.jpg">
+                    <!-- file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/Carriage%20bolt.jpg -->
+                    <h4>Carriage bolts</h4>
+                </div>
+              <div class="item"><img src="/resources/Oval Head Sheet Metal Screw.jpg">
+                    <!-- file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/Oval%20Head%20Sheet%20Metal%20Screw.jpg -->
+                    <h4>Oval Head Screws</h4>
+                </div>
+              <div class="item"><img src="/resources/Oval SMS.jpg">
+                <!-- file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/Oval%20SMS.jpg -->
+                <h4>Oval SMS Screws</h4>
+                </div>
+              <!-- <div class="item"><img src="file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/Nail.jpg"></div> -->
+              <div class="item"><img src="/resources/Pin.jpg">
+                <!-- file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/Pin.jpg -->
+                <h4>Pins</h4>
+                </div>
+              <div class="item"><img src="/resources/Hex Cap Bolt.jpg">
+                <!-- file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/Hex%20Cap%20Bolt.jpg -->
+                <h4>Hex Cap Bolts</h4>
+                </div>
+              <div class="item"><img src="/resources/Flat head wood screw.jpg">
+                <!-- file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/Flat%20head%20wood%20screw.jpg -->
+                <h4>Flat Head Wood Screws</h4>
+                </div>
+              <div class="item"><img src="/resources/Socket Screw.jpg">
+                <!-- file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/Socket%20Screw.jpg -->
+                <h4>Socket Screws</h4>
+                </div>
+              <div class="item"><img src="/resources/painted hex nut.jpg">
+                <!-- file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/painted%20hex%20nut.jpg -->
+                <h4>Painted Hex Nuts</h4>
+                </div>
+              <div class="item"><img src="/resources/SS flat washer.jpg">
+                <!-- file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/SS%20flat%20washer.jpg -->
+                <h4>Flat Wash</h4>
+                </div>
+              <div class="item"><img src="/resources/Beveled washer.jpg">
+                <!-- file:///Users/veteranchild/Documents/Code/Projects/Galaxy%20Fasteners/resources/Beveled%20washer.jpg -->
+                <h4>Beveled Washers</h4>
+                </div>
+            </div>
+            
+            <div class="product-link">
+                <a href="/products.html"><button>See Full Product List</button></a>
+            </div>
 
-        </section>
+          </div>
+
+
+
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js'></script>
+        <script src='https://use.fontawesome.com/826a7e3dce.js'></script>
+          
+        <script  src="js/index.js"></script>
+
+        <script>
+            $('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: true,
+  navText: [
+    "<i class='fa fa-caret-left'></i>",
+    "<i class='fa fa-caret-right'></i>"
+  ],
+  autoplay: true,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 5
+    }
+  }
+})
+        </script>
 
         <!--Form Section-->
-        <div id="form-background">
-            <div class="infoform">
-                <div class="info">
+        <div id="_form-background">
+            <div class="_infoform">
+                <div class="_info">
                     <form action="Contact us">
                         <label for="name">Name</label>
                         <input type="name" name="Name">
@@ -157,16 +272,27 @@
                         <br>
                         <label for="Type your Message">Type your Message</label>
                         <br>
-                        <textarea name="Type your Message" id="Type your Message" cols="40" rows="3"></textarea>
+                        <textarea name="Type your Message" id="Type your Message" cols="40" rows="5"></textarea>
                         <br>
-                        <input type="button" value="Submit">
+                        <input class="form_button" type="button" value="Submit">
                     </form>
                 </div>
             </div>
 
             <!--Map-->
-            <div class="map">
+            <!-- <div class="map">
                 <img src="./resources/Galaxy Map.png" alt="">
+            </div> -->
+
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="700" height="450" id="gmap_canvas" src="https://maps.google.com/maps?q=101%20telmore%20road&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+
+                    </iframe><a href="https://123movies-i.net">123movies</a><br>
+                    <!-- <style>.mapouter{position:relative;text-align:right;height:450px;width:700px;}</style> -->
+                    <a href="https://www.embedgooglemap.net">how to add google maps to your website</a>
+                    <!-- <style>.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:700px;}</style> -->
+                </div>
             </div>
             
         </div>
