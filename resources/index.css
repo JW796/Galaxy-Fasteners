@@ -506,50 +506,50 @@ nav img {
     padding: 0 3%;
     width: 100%;
     position: relative;
-  }
+}
   
-  /* fix blank or flashing items on carousel */
-  .owl-carousel .item {
+/* fix blank or flashing items on carousel */
+.owl-carousel .item {
     position: relative;
     z-index: 100; 
     -webkit-backface-visibility: hidden; 
-  }
+}
   
-  /* end fix */
+/* end fix */
 
-  .owl-carousel h4{
+.owl-carousel h4{
     font-size: 20px;
     padding-top: 1.5em;
-  }
+}
 
-  .owl-nav > div {
+.owl-nav > div {
     margin-top: -26px;
     position: absolute;
     top: 50%;
     color: #cdcbcd;
-  }
+}
   
-  .owl-nav i {
+.owl-nav i {
     font-size: 52px;
-  }
+}
   
-  .owl-nav .owl-prev {
+.owl-nav .owl-prev {
     left: -30px;
-  }
+}
   
-  .owl-nav .owl-next {
+.owl-nav .owl-next {
     right: -30px;
-  }
+}
 
-  .owl-carousel h4{
+.owl-carousel h4{
     text-align: center;
-  }
+}
 
-  .owl-carousel img:hover{
+.owl-carousel img:hover{
     transform: scale(1.125);
-  }
+}
 
-  .product-link {
+.product-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -557,9 +557,9 @@ nav img {
     padding: 4px;
     z-index: 1;
     padding-top: 4em;
-    }
+}
 
-  .product-link button {
+.product-link button {
         display: flex;
         font-size: 18px;
         justify-content: center;
@@ -567,30 +567,30 @@ nav img {
         text-align: center;
         padding: 1em;
         z-index: 1;
-    }
+}
     
-    .product-link button:hover {
+.product-link button:hover {
         align-items: center;
         padding: 1em;
         color: white;
         background-color: #f77062;
         cursor: pointer;
         transition: all 0.3s ease;
-  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .owl-nav .owl-prev {
         display: none;
-    }
+}
 
-    .owl-nav .owl-next{
+.owl-nav .owl-next{
         display: none;
-    }
+}
 
-    .owl-carousel img:hover{
+.owl-carousel img:hover{
         transform: none;
-      }
-  }
+    }
+}
 
 /* Product Slider Styling End */
 
@@ -745,7 +745,7 @@ nav img {
         height: 250px;
         width: 360px;
         padding: 1px;
-        }
+    }
 }
 
 /* Services Breakout Pgs End */
